@@ -4,9 +4,9 @@ A model that uses the tox21 dataset [1] to attempt to find a realtionship betwee
 This is currently still an ongoing project for the University of Victoria's AI club.
 
 What still needs to be completed:
-  - Normalize the dataset using SKlearn's standard scalar
-  - Change the way the model trains by altering validation splits and sample wieghts
-  - Inclusion of the Drugbank api to convert user-inputed molecular names into SMILE format (Streamlit site)
+  - Make minimum viable product (MVP) by connecting first model to the streamlit site
+  - Get a model that can train on three tasks
+      - Fix problem with class weights
 
 The dataset has already been modified to include molecular descriptors using mordred, however futher testing with other featurisation methods may be beneficial.
 
