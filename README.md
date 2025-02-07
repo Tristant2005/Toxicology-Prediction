@@ -5,24 +5,26 @@ This is currently still an ongoing project for the University of Victoria's AI c
 # About:
 The Tox21 dataset includes a wide range of molecules and 12 "tasks" representing a quality of cellular biology and biochemistry
 
-NR-XXX -> Nuclear Receptor
+NR-XXX -> Nuclear Receptor  
 SR-XXX -> Stress Response
 
+```python
 '''
-['NR-AR',           Androgen Receptor
- 'NR-AR-LBD',       Androgen Receptor Ligand Binding Domain
- 'NR-AhR',          Aryl Hydrocarbon Receptor (response to environmental toxins)
- 'NR-Aromatase',    Aromatase (enzyme that converts androgens to estrogens)
- 'NR-ER',           Estrogen Receptor
- 'NR-ER-LBD',       Estrogen Receptor Ligand Binding Domain
- 'NR-PPAR-gamma',   Peroxisome Proliferator-Activated Receptor Gamm (fat storage and glucose)
+['NR-AR',           Androgen Receptor  
+ 'NR-AR-LBD',       Androgen Receptor Ligand Binding Domain  
+ 'NR-AhR',          Aryl Hydrocarbon Receptor (response to environmental toxins)  
+ 'NR-Aromatase',    Aromatase (enzyme that converts androgens to estrogens)  
+ 'NR-ER',           Estrogen Receptor  
+ 'NR-ER-LBD',       Estrogen Receptor Ligand Binding Domain  
+ 'NR-PPAR-gamma',   Peroxisome Proliferator-Activated Receptor Gamm (fat storage and glucose)  
 
- 'SR-ARE',          Antioxidant Response Element
- 'SR-ATAD5',        The ATAD5 gene is involved in DNA damage response (could lead to mutations)
- 'SR-HSE',          Heat Shock Element (initiate heat shock responses)
- 'SR-MMP',          Matrix Metalloproteinase (potential carcinogenic effects)
+ 'SR-ARE',          Antioxidant Response Element  
+ 'SR-ATAD5',        The ATAD5 gene is involved in DNA damage response (could lead to mutations)  
+ 'SR-HSE',          Heat Shock Element (initiate heat shock responses)  
+ 'SR-MMP',          Matrix Metalloproteinase (potential carcinogenic effects)  
  'SR-p53']          p53 is a crucial tumor suppressor
- '''
+'''
+```
 
 Tasks are the 12 axis each chemical may fall into, and a molecule can be multiple classifications.
 
