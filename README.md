@@ -21,7 +21,7 @@ SR-XXX -> Stress Response
  'SR-ARE',          Antioxidant Response Element  
  'SR-ATAD5',        The ATAD5 gene is involved in DNA damage response (could lead to mutations)  
  'SR-HSE',          Heat Shock Element (initiate heat shock responses)  
- 'SR-MMP',          Matrix Metalloproteinase (potential carcinogenic effects)  
+ 'SR-MMP',          Mitochondrial Membrane Potential (indicator of mitochondrial dysfunction) 
  'SR-p53']          p53 is a crucial tumor suppressor
 '''
 ```
