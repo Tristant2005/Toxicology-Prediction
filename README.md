@@ -34,7 +34,10 @@ The following includes a few items currently worked on:
   - Improve model to train on seven tasks instead of three
   - Fix issue relating to overfitting
 
-Additionally it would be nice to get a few figures and tables to visually display our work/progress.
+# Repo Structure
+  - Refer to the _Notebooks_ folder to view model creation and analysis.
+  - Refer to the _tox21dataset_ to replicate/perform any machine learning anaylsis of your own.
+  - Refer to the _tox21app_ to view the implementation between a user interface and the many models.
 
 # References:
   [1] https://tox21.gov/resources/
