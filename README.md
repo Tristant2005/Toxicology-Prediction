@@ -26,19 +26,24 @@ SR-XXX -> Stress Response
 '''
 ```
 
-Tasks are the 12 axis each chemical may fall into, and a molecule can be multiple classifications.
+Tasks are the 12 classes each chemical may fall into, and a molecule can be multiple classifications.
 
-# What still needs to be completed:
-The following includes a few items currently worked on:
-  - Improve streamlit site with implementation of the multi_classification model
-  - Improve model to train on seven tasks instead of three
-  - Fix issue relating to overfitting
+# Inspiration
+A study from the American Society for Biochemistry and Molecular Biology reports that 90% of drugs fail clinical testing, with 30% of failures attributed to molecular toxicity [2]. These failures result in billions of dollars in losses for pharmaceutical companies due to the costs of research, development, and testing. Our project focuses on this subset by developing a machine learning model capable of predicting molecular toxicity based solely on molecular structure and similarity to known toxic compounds, using the chemistry principle of Structure-Activity Relationship (SAR) as reasoning.
 
 # Repo Structure
   - Refer to the _Notebooks_ folder to view model creation and analysis.
   - Refer to the _tox21dataset_ to replicate/perform any machine learning anaylsis of your own.
   - Refer to the _tox21app_ to view the implementation between a user interface and the many models.
 
+# Key Colaborators
+* Tristan Tucker: https://www.linkedin.com/in/tristan-tucker-4751722a0/
+* Simran Cheema: https://www.linkedin.com/in/simran-cheema-690755231/
+
 # References:
-  [1] https://tox21.gov/resources/
+  [1] National Center for Advancing Translational Sciences, "Toxicology in the 21st Century (Tox21)," 
+  Tox21, [Online]. Available: https://tox21.gov/. [Accessed: Feb. 20, 2025].
+  
+  [2] D. Sun, "90% of drugs fail clinical trials," ASBMB Today, Mar. 12, 2022. [Online]. Available: 
+  https://www.asbmb.org/asbmb-today/opinions/031222/90-of-drugs-fail-clinical-trials. [Accessed: Feb. 20, 2025].
 
