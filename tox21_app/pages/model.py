@@ -328,7 +328,7 @@ def main():
         st.image(img, caption="Molecule Image")
 
     # Get descriptors for molecule
-    molecule_mordred = get_features_mordred_cached(smile)
+    # molecule_mordred = get_features_mordred_cached(smile)
     molecule_chembert = get_features_chembert_cached(smile)
 
     # Columns for checkboxes
