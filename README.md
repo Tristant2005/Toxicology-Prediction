@@ -36,6 +36,11 @@ A study from the American Society for Biochemistry and Molecular Biology reports
   - Refer to the _tox21dataset_ to replicate/perform any machine learning anaylsis of your own.
   - Refer to the _tox21app_ to view the implementation between a user interface and the many models.
 
+# App Interface
+The image below provides a look into our user interface for the many models.
+
+![appDemo](https://github.com/user-attachments/assets/fb010207-6dfd-4921-b6f6-c2ba7d0520b6)
+
 # Key Colaborators
 * Tristan Tucker: https://www.linkedin.com/in/tristan-tucker-4751722a0/
 * Simran Cheema: https://www.linkedin.com/in/simran-cheema-690755231/
