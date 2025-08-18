@@ -1,6 +1,6 @@
 # **Toxicology-Prediction: ⚛️**
 A model that uses the tox21 dataset [1] to attempt to find a realtionship between molecular structure and realtive toxicity, and a streamlit website to use to interact with it.
-This is currently still an ongoing project for the University of Victoria's AI club.
+This was a project made in the University of Victoria's AI club and was presented at the Canadaian Conference of Artificial Intelligence (CUCAI) 2025.
 
 # About:
 The Tox21 dataset includes a wide range of molecules and 12 "tasks" representing a quality of cellular biology and biochemistry
